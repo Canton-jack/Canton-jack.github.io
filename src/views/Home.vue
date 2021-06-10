@@ -354,6 +354,7 @@
 			},
 			// 重置
 			reset(): void {
+				this.lnglatArr = [];
 				if (!this.lineFlag) return; // 未生成轨迹情况
 				pointSource.features[0].geometry.coordinates = [];
 				routeSource.features[0].geometry.coordinates = [];
@@ -368,7 +369,7 @@
 				this.counter = 0;
 				this.lineFlag = false;
 				this.drivingFlag = false;
-				this.lnglatArr = [];
+
 				// 删除图层
 				if (map.getLayer("routeLayer")) {
 					map.removeLayer("routeLayer");
