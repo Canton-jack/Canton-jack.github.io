@@ -1,6 +1,6 @@
 # car-ts
 
-#预览地址
+# 预览地址
 
 https://canton-jack.github.io/#/
 

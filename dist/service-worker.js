@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.98cec86b46733545ca1eadafb7e6802c.js"
+  "/canton-jack.github.io/precache-manifest.4a37aa1659dd40a642a3d99909d60a2e.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "car-ts"});
